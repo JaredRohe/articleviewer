@@ -1,9 +1,6 @@
 package articleviewer
 
-import java.util.Date
-
 import com.softwaremill.sttp._
-import com.softwaremill.sttp.asynchttpclient.future.AsyncHttpClientFutureBackend
 import com.softwaremill.sttp.json4s.asJson
 
 class ArticleViewer{
@@ -17,7 +14,6 @@ class ArticleViewer{
   val PAGE_SIZE = 3
 
 
-//implicit val sttpBackend = AsyncHttpClientFutureBackend()
   implicit val backend = HttpURLConnectionBackend()
   implicit val serialization =  org.json4s.native.Serialization
 
@@ -41,8 +37,6 @@ class ArticleViewer{
 
 
   def getNumPages(): Int = {
-
-    implicit val sttpBackend = AsyncHttpClientFutureBackend()
 
     val response = makeReqeust[ArticlesResponse](
       uri"https://api.elevio-staging.com/v1/articles?page_size=$PAGE_SIZE")
