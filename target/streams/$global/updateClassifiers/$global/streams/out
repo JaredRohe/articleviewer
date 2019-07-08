@@ -26,15 +26,23 @@
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->master]
-[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile]
-[debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.26 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->default]
+[debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.26 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)], test=[compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.26
 [debug] 	found org.slf4j#slf4j-api;1.7.26 in sbt-chain
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->runtime(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->master(compile)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->runtime]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->default(compile)]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.typesafe.netty#netty-reactive-streams;2.0.3 [compile->compile]
@@ -138,6 +146,21 @@
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [compile->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [compile->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [compile->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->default]
+[debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-simple;1.7.5 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-simple;1.7.5
+[debug] 	found org.slf4j#slf4j-simple;1.7.5 in sbt-chain
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->default(compile)]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: io.netty#netty-handler-proxy;4.1.36.Final {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: io.netty#netty-handler-proxy;4.1.36.Final
@@ -374,12 +397,20 @@
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->default]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->runtime(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->master(compile)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->runtime]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->default(compile)]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.typesafe.netty#netty-reactive-streams;2.0.3 [compile->compile]
@@ -458,6 +489,18 @@
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [compile->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [compile->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [compile->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->default]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->default(compile)]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [compile->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [compile->runtime(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [compile->compile]
@@ -634,12 +677,20 @@
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [runtime->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [runtime->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [runtime->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->default]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->runtime(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->master(compile)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->runtime]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->default(compile)]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.typesafe.netty#netty-reactive-streams;2.0.3 [runtime->compile]
@@ -718,6 +769,18 @@
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [runtime->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [runtime->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [runtime->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->default]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->default(compile)]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [runtime->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [runtime->runtime(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [runtime->compile]
@@ -898,12 +961,20 @@
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->default]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->runtime(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->master(compile)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->runtime]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->default(compile)]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.typesafe.netty#netty-reactive-streams;2.0.3 [compile->compile]
@@ -982,6 +1053,18 @@
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [compile->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [compile->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [compile->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->default]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->default(compile)]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [compile->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [compile->runtime(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [compile->compile]
@@ -1158,12 +1241,20 @@
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [runtime->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [runtime->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [runtime->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->default]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->runtime(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->master(compile)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->runtime]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->default(compile)]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.typesafe.netty#netty-reactive-streams;2.0.3 [runtime->compile]
@@ -1242,6 +1333,18 @@
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [runtime->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [runtime->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [runtime->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->default]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->default(compile)]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [runtime->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [runtime->runtime(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [runtime->compile]
@@ -1418,12 +1521,20 @@
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [test->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [test->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [test->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->default]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->runtime(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->master(compile)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->runtime]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->default(compile)]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.typesafe.netty#netty-reactive-streams;2.0.3 [test->compile]
@@ -1502,6 +1613,18 @@
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [test->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [test->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [test->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test->default]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test->default(compile)]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [test->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [test->runtime(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [test->compile]
@@ -1685,12 +1808,20 @@
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->default]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->runtime(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->master(compile)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->runtime]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->default(compile)]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.typesafe.netty#netty-reactive-streams;2.0.3 [compile->compile]
@@ -1769,6 +1900,18 @@
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [compile->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [compile->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [compile->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->default]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->default(compile)]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [compile->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [compile->runtime(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [compile->compile]
@@ -1947,12 +2090,20 @@
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [compile-internal->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [compile-internal->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [compile-internal->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile-internal->default]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile-internal->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile-internal->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile-internal->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile-internal->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile-internal->runtime(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile-internal->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile-internal->master(compile)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile-internal->runtime]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile-internal->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile-internal->default(compile)]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile-internal->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile-internal->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile-internal->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile-internal->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile-internal->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.typesafe.netty#netty-reactive-streams;2.0.3 [compile-internal->compile]
@@ -2031,6 +2182,18 @@
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [compile-internal->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [compile-internal->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [compile-internal->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile-internal->default]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile-internal->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile-internal->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile-internal->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile-internal->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile-internal->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile-internal->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile-internal->default(compile)]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile-internal->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile-internal->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile-internal->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile-internal->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [compile-internal->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [compile-internal->runtime(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [compile-internal->compile]
@@ -2211,12 +2374,20 @@
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->default]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->runtime(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->master(compile)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->runtime]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->default(compile)]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.typesafe.netty#netty-reactive-streams;2.0.3 [compile->compile]
@@ -2295,6 +2466,18 @@
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [compile->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [compile->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [compile->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->default]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->default(compile)]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [compile->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [compile->runtime(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [compile->compile]
@@ -2471,12 +2654,20 @@
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [runtime->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [runtime->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [runtime->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->default]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->runtime(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->master(compile)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->runtime]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->default(compile)]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.typesafe.netty#netty-reactive-streams;2.0.3 [runtime->compile]
@@ -2555,6 +2746,18 @@
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [runtime->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [runtime->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [runtime->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->default]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->default(compile)]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [runtime->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [runtime->runtime(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [runtime->compile]
@@ -2732,12 +2935,20 @@
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [runtime-internal->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [runtime-internal->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [runtime-internal->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime-internal->default]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime-internal->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime-internal->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime-internal->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime-internal->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime-internal->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime-internal->master(compile)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime-internal->runtime]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime-internal->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime-internal->default(compile)]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime-internal->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime-internal->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime-internal->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime-internal->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime-internal->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.typesafe.netty#netty-reactive-streams;2.0.3 [runtime-internal->compile]
@@ -2816,6 +3027,18 @@
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [runtime-internal->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [runtime-internal->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [runtime-internal->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime-internal->default]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime-internal->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime-internal->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime-internal->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime-internal->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime-internal->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime-internal->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime-internal->default(compile)]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime-internal->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime-internal->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime-internal->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime-internal->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [runtime-internal->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [runtime-internal->runtime(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [runtime-internal->compile]
@@ -2997,12 +3220,20 @@
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [compile->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->default]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->runtime(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->master(compile)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->runtime]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->default(compile)]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [compile->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.typesafe.netty#netty-reactive-streams;2.0.3 [compile->compile]
@@ -3081,6 +3312,18 @@
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [compile->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [compile->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [compile->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->default]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->default(compile)]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [compile->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [compile->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [compile->runtime(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [compile->compile]
@@ -3257,12 +3500,20 @@
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [runtime->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [runtime->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [runtime->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->default]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->runtime(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->master(compile)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->runtime]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->default(compile)]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [runtime->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.typesafe.netty#netty-reactive-streams;2.0.3 [runtime->compile]
@@ -3341,6 +3592,18 @@
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [runtime->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [runtime->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [runtime->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->default]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->default(compile)]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [runtime->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [runtime->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [runtime->runtime(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [runtime->compile]
@@ -3517,12 +3780,20 @@
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [test->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [test->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [test->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->default]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->runtime(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->master(compile)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->runtime]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->default(compile)]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.typesafe.netty#netty-reactive-streams;2.0.3 [test->compile]
@@ -3601,6 +3872,18 @@
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [test->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [test->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [test->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test->default]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test->default(compile)]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [test->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [test->runtime(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [test->compile]
@@ -3779,12 +4062,20 @@
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [test-internal->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [test-internal->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.thoughtworks.paranamer#paranamer;2.8 [test-internal->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test-internal->default]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test-internal->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test-internal->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test-internal->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test-internal->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test-internal->runtime(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test-internal->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test-internal->master(compile)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test-internal->runtime]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test-internal->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test-internal->default(compile)]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test-internal->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test-internal->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test-internal->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test-internal->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-api;1.7.26 [test-internal->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->com.typesafe.netty#netty-reactive-streams;2.0.3 [test-internal->compile]
@@ -3863,6 +4154,18 @@
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [test-internal->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [test-internal->compile(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.reactivestreams#reactive-streams;1.0.2 [test-internal->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test-internal->default]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test-internal->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test-internal->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test-internal->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test-internal->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test-internal->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test-internal->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test-internal->default(compile)]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test-internal->runtime]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test-internal->compile]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test-internal->master]
+[debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->org.slf4j#slf4j-simple;1.7.5 [test-internal->master]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [test-internal->compile]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [test-internal->runtime(*)]
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->io.netty#netty-handler-proxy;4.1.36.Final [test-internal->compile]
@@ -4081,136 +4384,47 @@
 [debug] == resolving dependencies rohe.jared#article-viewer$sources;1.0->jline#jline;2.14.6 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.asynchttpclient#async-http-client-netty-utils;2.10.0!async-http-client-netty-utils.jar(src)
-[debug] no default ivy user dir defined: set to /Users/jared/.ivy2
-[debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.8!paranamer.jar(src)
-[debug] no default ivy user dir defined: set to /Users/jared/.ivy2
 [debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.26!slf4j-api.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.netty#netty-reactive-streams;2.0.3!netty-reactive-streams.jar(src)
-[debug] no default ivy user dir defined: set to /Users/jared/.ivy2
-[debug] 	[NOT REQUIRED] org.json4s#json4s-scalap_2.13;3.6.7!json4s-scalap_2.13.jar(src)
-[debug] no default ivy user dir defined: set to /Users/jared/.ivy2
-[debug] no default ivy user dir defined: set to /Users/jared/.ivy2
+[debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.8!paranamer.jar(src)
+[debug] 	[NOT REQUIRED] org.asynchttpclient#async-http-client-netty-utils;2.10.0!async-http-client-netty-utils.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty-transport;4.1.36.Final!netty-transport.jar(src)
-[debug] no default ivy user dir defined: set to /Users/jared/.ivy2
-[debug] including url: jar:file:/Users/jared/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/jared/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/jared/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/jared/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/jared/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/Users/jared/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to /Users/jared/.ivy2/cache
-[debug] no default cache defined: set to /Users/jared/.ivy2/cache
-[debug] including url: jar:file:/Users/jared/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/jared/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/jared/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/jared/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default cache defined: set to /Users/jared/.ivy2/cache
-[debug] no default cache defined: set to /Users/jared/.ivy2/cache
-[debug] no default cache defined: set to /Users/jared/.ivy2/cache
-[debug] including url: jar:file:/Users/jared/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/jared/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/jared/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/jared/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/jared/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/Users/jared/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/jared/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/jared/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/jared/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/Users/jared/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] no default cache defined: set to /Users/jared/.ivy2/cache
-[debug] including url: jar:file:/Users/jared/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] settings loaded (23ms)
-[debug] 	default cache: /Users/jared/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] settings loaded (21ms)
-[debug] 	default cache: /Users/jared/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	local [file]
-[debug] including url: jar:file:/Users/jared/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/jared/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/jared/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/Users/jared/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] 	[NOT REQUIRED] io.netty#netty-buffer;4.1.36.Final!netty-buffer.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.13.0!scala-library.jar(src)
-[debug] including url: jar:file:/Users/jared/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/jared/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/Users/jared/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	[NOT REQUIRED] com.softwaremill.sttp#async-http-client-backend-future_2.13;1.6.0!async-http-client-backend-future_2.13.jar(src)
-[debug] including url: jar:file:/Users/jared/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] 	[NOT REQUIRED] io.netty#netty-transport-native-unix-common;4.1.36.Final!netty-transport-native-unix-common.jar(src)
+[debug] 	[NOT REQUIRED] org.json4s#json4s-scalap_2.13;3.6.7!json4s-scalap_2.13.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.netty#netty-reactive-streams;2.0.3!netty-reactive-streams.jar(src)
 [debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.13.0!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] io.netty#netty-transport-native-unix-common;4.1.36.Final!netty-transport-native-unix-common.jar(src)
+[debug] 		tried /Users/jared/.ivy2/local/org.slf4j/slf4j-simple/1.7.5/srcs/slf4j-simple-sources.jar
+[debug] 	[NOT REQUIRED] io.netty#netty-buffer;4.1.36.Final!netty-buffer.jar(src)
+[debug] 	[NOT REQUIRED] com.softwaremill.sttp#async-http-client-backend-future_2.13;1.6.0!async-http-client-backend-future_2.13.jar(src)
+[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5-sources.jar
 [debug] 	[NOT REQUIRED] io.netty#netty-handler-proxy;4.1.36.Final!netty-handler-proxy.jar(src)
-[debug] 	[NOT REQUIRED] org.json4s#json4s-core_2.13;3.6.7!json4s-core_2.13.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-ast_2.13;3.6.7!json4s-ast_2.13.jar(src)
-[debug] settings loaded (35ms)
-[debug] 	default cache: /Users/jared/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	[NOT REQUIRED] com.softwaremill.sttp#json-common_2.13;1.6.0!json-common_2.13.jar(src)
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.json4s#json4s-core_2.13;3.6.7!json4s-core_2.13.jar(src)
 [debug] 	[NOT REQUIRED] org.asynchttpclient#async-http-client;2.10.0!async-http-client.jar(src)
-[debug] settings loaded (31ms)
-[debug] settings loaded (31ms)
-[debug] 	default cache: /Users/jared/.ivy2/cache
-[debug] 	default cache: /Users/jared/.ivy2/cache
-[debug] 	default resolver: default
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	shared [file]
-[debug] including url: jar:file:/Users/jared/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	default [chain] [local, main]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] com.softwaremill.sttp#core_2.13;1.6.0!core_2.13.jar(src)
+[debug] 	[NOT REQUIRED] com.softwaremill.sttp#json-common_2.13;1.6.0!json-common_2.13.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty-transport-native-epoll;4.1.36.Final!netty-transport-native-epoll.jar(src)
-[debug] 	[NOT REQUIRED] io.netty#netty-common;4.1.36.Final!netty-common.jar(src)
+[debug] 	[NOT REQUIRED] com.softwaremill.sttp#core_2.13;1.6.0!core_2.13.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty-resolver-dns;4.1.36.Final!netty-resolver-dns.jar(src)
+[debug] 	[NOT REQUIRED] io.netty#netty-common;4.1.36.Final!netty-common.jar(src)
 [debug] 	[NOT REQUIRED] com.sun.activation#javax.activation;1.2.0!javax.activation.jar(src)
-[debug] 	[NOT REQUIRED] io.netty#netty-codec-http;4.1.36.Final!netty-codec-http.jar(src)
 [debug] 	[NOT REQUIRED] com.softwaremill.sttp#async-http-client-backend_2.13;1.6.0!async-http-client-backend_2.13.jar(src)
-[debug] 	[NOT REQUIRED] io.netty#netty-codec-socks;4.1.36.Final!netty-codec-socks.jar(src)
+[debug] 	[NOT REQUIRED] io.netty#netty-codec-http;4.1.36.Final!netty-codec-http.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty-resolver;4.1.36.Final!netty-resolver.jar(src)
-[debug] settings loaded (35ms)
-[debug] 	default cache: /Users/jared/.ivy2/cache
-[debug] 	default resolver: default
+[debug] 	[NOT REQUIRED] io.netty#netty-codec-socks;4.1.36.Final!netty-codec-socks.jar(src)
 [debug] 	[NOT REQUIRED] com.softwaremill.sttp#json4s_2.13;1.6.0!json4s_2.13.jar(src)
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.13.0!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] io.netty#netty-codec-dns;4.1.36.Final!netty-codec-dns.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty-codec;4.1.36.Final!netty-codec.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.13.0!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] io.netty#netty-codec-dns;4.1.36.Final!netty-codec-dns.jar(src)
 [debug] 	[NOT REQUIRED] org.json4s#json4s-native_2.13;3.6.7!json4s-native_2.13.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.13.0!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty-handler;4.1.36.Final!netty-handler.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.13.0!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
-[debug] :: resolution report :: resolve 1239ms :: artifacts dl 68ms
+[info] downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5-sources.jar
+[info] 	[SUCCESSFUL ] org.slf4j#slf4j-simple;1.7.5!slf4j-simple.jar(src) (221ms)
+[debug] :: resolution report :: resolve 499ms :: artifacts dl 235ms
 [debug] 	report for rohe.jared#article-viewer$sources;1.0 compile produced in /Users/jared/elevio/articleviewer/target/scala-2.13/resolution-cache/reports/rohe.jared-article-viewer$sources-compile.xml
 [debug] 	report for rohe.jared#article-viewer$sources;1.0 runtime produced in /Users/jared/elevio/articleviewer/target/scala-2.13/resolution-cache/reports/rohe.jared-article-viewer$sources-runtime.xml
 [debug] 	report for rohe.jared#article-viewer$sources;1.0 test produced in /Users/jared/elevio/articleviewer/target/scala-2.13/resolution-cache/reports/rohe.jared-article-viewer$sources-test.xml
@@ -4222,4 +4436,4 @@
 [debug] 	report for rohe.jared#article-viewer$sources;1.0 plugin produced in /Users/jared/elevio/articleviewer/target/scala-2.13/resolution-cache/reports/rohe.jared-article-viewer$sources-plugin.xml
 [debug] 	report for rohe.jared#article-viewer$sources;1.0 pom produced in /Users/jared/elevio/articleviewer/target/scala-2.13/resolution-cache/reports/rohe.jared-article-viewer$sources-pom.xml
 [debug] 	report for rohe.jared#article-viewer$sources;1.0 scala-tool produced in /Users/jared/elevio/articleviewer/target/scala-2.13/resolution-cache/reports/rohe.jared-article-viewer$sources-scala-tool.xml
-[debug] 	resolve done (1239ms resolve - 68ms download)
+[debug] 	resolve done (499ms resolve - 235ms download)

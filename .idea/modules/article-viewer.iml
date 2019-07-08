@@ -13,25 +13,17 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="sbt: com.sun.activation:javax.activation:1.2.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.thoughtworks.paranamer:paranamer:2.8:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.typesafe.netty:netty-reactive-streams:2.0.3:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.netty:netty-buffer:4.1.36.Final:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.netty:netty-codec:4.1.36.Final:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.netty:netty-codec-dns:4.1.36.Final:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.netty:netty-codec-http:4.1.36.Final:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.netty:netty-codec-socks:4.1.36.Final:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.netty:netty-common:4.1.36.Final:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.netty:netty-handler:4.1.36.Final:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.netty:netty-handler-proxy:4.1.36.Final:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.netty:netty-resolver:4.1.36.Final:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.netty:netty-resolver-dns:4.1.36.Final:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.netty:netty-transport:4.1.36.Final:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.netty:netty-transport-native-epoll:4.1.36.Final:linux-x86_64:jar" level="project" />
-    <orderEntry type="library" name="sbt: io.netty:netty-transport-native-unix-common:4.1.36.Final:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.asynchttpclient:async-http-client:2.10.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.asynchttpclient:async-http-client-netty-utils:2.10.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.reactivestreams:reactive-streams:1.0.2:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.slf4j:slf4j-api:1.7.26:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.slf4j:slf4j-simple:1.7.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.13.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.json4s:json4s-scalap_2.13:3.6.7:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.json4s:json4s-native_2.13:3.6.7:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.json4s:json4s-core_2.13:3.6.7:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.json4s:json4s-ast_2.13:3.6.7:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.softwaremill.sttp:json4s_2.13:1.6.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.softwaremill.sttp:json-common_2.13:1.6.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.softwaremill.sttp:core_2.13:1.6.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.softwaremill.sttp:async-http-client-backend_2.13:1.6.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.softwaremill.sttp:async-http-client-backend-future_2.13:1.6.0:jar" level="project" />
     <orderEntry type="module-library">
       <library name="sbt: unmanaged-sources-and-docs">
         <CLASSES />
@@ -41,15 +33,24 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="library" name="sbt: com.softwaremill.sttp:async-http-client-backend-future_2.13:1.6.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.softwaremill.sttp:async-http-client-backend_2.13:1.6.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.softwaremill.sttp:core_2.13:1.6.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.softwaremill.sttp:json-common_2.13:1.6.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.softwaremill.sttp:json4s_2.13:1.6.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.json4s:json4s-ast_2.13:3.6.7:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.json4s:json4s-core_2.13:3.6.7:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.json4s:json4s-native_2.13:3.6.7:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.json4s:json4s-scalap_2.13:3.6.7:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.13.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.slf4j:slf4j-api:1.7.26:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.reactivestreams:reactive-streams:1.0.2:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.asynchttpclient:async-http-client-netty-utils:2.10.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.asynchttpclient:async-http-client:2.10.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.netty:netty-transport-native-unix-common:4.1.36.Final:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.netty:netty-transport-native-epoll:4.1.36.Final:linux-x86_64:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.netty:netty-transport:4.1.36.Final:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.netty:netty-resolver-dns:4.1.36.Final:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.netty:netty-resolver:4.1.36.Final:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.netty:netty-handler-proxy:4.1.36.Final:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.netty:netty-handler:4.1.36.Final:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.netty:netty-common:4.1.36.Final:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.netty:netty-codec-socks:4.1.36.Final:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.netty:netty-codec-http:4.1.36.Final:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.netty:netty-codec-dns:4.1.36.Final:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.netty:netty-codec:4.1.36.Final:jar" level="project" />
+    <orderEntry type="library" name="sbt: io.netty:netty-buffer:4.1.36.Final:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe.netty:netty-reactive-streams:2.0.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.thoughtworks.paranamer:paranamer:2.8:jar" level="project" />
   </component>
 </module>

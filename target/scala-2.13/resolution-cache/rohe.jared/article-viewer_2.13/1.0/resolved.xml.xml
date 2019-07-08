@@ -4,7 +4,7 @@
 		module="article-viewer_2.13"
 		revision="1.0"
 		status="integration"
-		publication="20190705090008"
+		publication="20190707084559"
 	>
 		<description>
 		article-viewer
@@ -35,5 +35,7 @@
 		<dependency org="com.softwaremill.sttp" name="async-http-client-backend-future_2.13" rev="1.6.0" conf="compile->default(compile)"/>
 		<dependency org="com.softwaremill.sttp" name="json4s_2.13" rev="1.6.0" conf="compile->default(compile)"/>
 		<dependency org="org.json4s" name="json4s-native_2.13" rev="3.6.7" conf="compile->default(compile)"/>
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.5" conf="compile->default(compile)"/>
+		<dependency org="org.slf4j" name="slf4j-simple" rev="1.7.5" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

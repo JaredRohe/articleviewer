@@ -2,6 +2,15 @@ package articleviewer
 
 import com.softwaremill.sttp._
 import com.softwaremill.sttp.json4s.asJson
+import com.softwaremill.sttp.asynchttpclient.future.AsyncHttpClientFutureBackend
+
+import scala.util.{Failure, Success}
+import scala.concurrent.ExecutionContext.Implicits.global
+import scala.concurrent.{Await, Future, Promise}
+import scala.concurrent.duration._
+import scala.language.postfixOps
+import scala.concurrent.blocking
+
 
 class ArticleViewer{
   val apiKey = "ac63f04b011f792e6119591b7234cf7d"
@@ -14,11 +23,8 @@ class ArticleViewer{
   val PAGE_SIZE = 3
 
 
-  implicit val backend = HttpURLConnectionBackend()
+  implicit val backend = AsyncHttpClientFutureBackend()
   implicit val serialization =  org.json4s.native.Serialization
-
-
-  val numPages = getNumPages()
 
 
   def makeReqeust[T](uri: Uri)(implicit m: Manifest[T])   = {
@@ -36,69 +42,95 @@ class ArticleViewer{
   }
 
 
-  def getNumPages(): Int = {
+  def getNumPages(): Future[Int] = {
 
     val response = makeReqeust[ArticlesResponse](
       uri"https://api.elevio-staging.com/v1/articles?page_size=$PAGE_SIZE")
 
-    //response.onComplete()
 
-    if( response.body.isRight) {
+    val p = Promise[Int]()
 
-      response.body.getOrElse().asInstanceOf[ArticlesResponse].total_pages
-    }else{
+    response.onComplete({
 
-      -1
+      case Success(resp) => p.success(resp.body.getOrElse().asInstanceOf[ArticlesResponse].total_pages)
+      case Failure(e) => p.failure(e)
+
     }
+    )
+
+    p.future
 
   }
 
-  def getArticlesForPage(pageState: PageState): List[Article] = {
+  def getArticlesForPage(pageState: PageState): Future[List[Article]] = {
 
     val response = makeReqeust[ArticlesResponse](
       uri"https://api.elevio-staging.com/v1/articles?page=${pageState.pageNumber}&page_size=$PAGE_SIZE")
 
-    if (response.body.isRight) {
+    val p = Promise[List[Article]]()
 
-      response.body.getOrElse().asInstanceOf[ArticlesResponse].articles
+    response onComplete {
+
+      case Success(resp) => p.success(resp.body.getOrElse().asInstanceOf[ArticlesResponse].articles)
+      case Failure(e) => p.failure(e)
 
     }
 
-    else{
-
-      print("Error");
-      List[Article]()
-    }
+  p.future
 
   }
 
-  def getArticleDetails(articleID: Int): ArticleDetail ={
+  def getArticleDetails(articleID: Int): Future[ArticleDetail] ={
 
     val response = makeReqeust[ArticleDetailResponse](
       uri"https://api.elevio-staging.com/v1/articles/$articleID")
 
-    if (response.body.isRight) {
-        response.body.getOrElse().asInstanceOf[ArticleDetailResponse].article
-    } else{
-       null
+    val p = Promise[ArticleDetail]()
+
+    response onComplete {
+
+      case Success(resp) => p.success(resp.body.getOrElse().asInstanceOf[ArticleDetailResponse].article)
+      case Failure(e) => p.failure(e)
+
     }
+
+    p.future
+
+//    if (response.body.isRight) {
+//        response.body.getOrElse().asInstanceOf[ArticleDetailResponse].article
+//    } else{
+//       null
+//    }
 
   }
 
-  def searchByKeyword(keyword: String): List[QueryResult] ={
+  def searchByKeyword(keyword: String): Future[List[QueryResult]] ={
 
-    val response = makeReqeust[ArticlesResponse](uri"https://api.elevio-staging.com/v1/search/en/?query=$keyword")
+    val response = makeReqeust[QueryResponse](uri"https://api.elevio-staging.com/v1/search/en/?query=$keyword")
 
-    if (response.body.isRight) {
+    val p = Promise[List[QueryResult]]()
 
-      response.body.getOrElse().asInstanceOf[QueryResponse].results
+    response onComplete {
 
-    } else{
-
-      "Error"
-      List[QueryResult]()
+      case Success(resp) => p.success(resp.body.getOrElse().asInstanceOf[QueryResponse].results)
+      case Failure(e) => p.failure(e)
 
     }
+
+    p.future
+
+
+//    if (response.body.isRight) {
+//
+//      response.body.getOrElse().asInstanceOf[QueryResponse].results
+//
+//    } else{
+//
+//      "Error"
+//      List[QueryResult]()
+//
+//    }
+
 
   }
 

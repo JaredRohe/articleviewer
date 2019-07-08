@@ -3,19 +3,37 @@ package articleviewer
 import org.json4s.DefaultFormats
 import org.json4s.native.Serialization.writePretty
 
-object ArticleViewerDriver extends App {
+import scala.util.{Failure, Success}
+import scala.concurrent.ExecutionContext.Implicits.global
+import scala.concurrent.{Await, blocking}
+import scala.concurrent.duration._
+import scala.language.postfixOps
 
-  val articleViewer = new ArticleViewer()
-  var articles: List[Article] = _
-  var viewingPageNumber = 1
-  selectPage(viewingPageNumber)
+object ArticleViewerDriver extends App {
+  implicit val jsonFormats = DefaultFormats
+
+  val articleViewer =  new ArticleViewer()
+  var numPages = {
+    val numPagesF = articleViewer.getNumPages()
+    Await.result(numPagesF, 30 seconds)
+    numPagesF.value.get.get
+  }
+
   var inUse=true
+  var loading=true
   var command = ""
   var input: Int = 0
   var searchQuery: String = _
-  implicit val jsonFormats = DefaultFormats
 
-  var pageState = PageState(viewingPageNumber)
+
+
+  var articles: List[Article] = _
+  selectPage(page = 1)
+
+
+
+
+  var pageState = PageState(1)
 
   while(inUse) {
     printPageSelector(pageState)
@@ -24,10 +42,26 @@ object ArticleViewerDriver extends App {
 
     command match{
 
-      case "q" => {print("Bye."); inUse = false; articleViewer.backend.close()}
-      case "d" => {print("Enter article Number: "); input = scala.io.StdIn.readInt(); displayArticleDetails(input) }
-      case "s" => {print("Enter keyword to query: "); searchQuery = scala.io.StdIn.readLine(); displaySearchResults(searchQuery)}
-      case "p" => { print("Enter page number: "); input = scala.io.StdIn.readInt(); selectPage(input)}
+      case "q" => {
+        print("Bye.");
+        inUse = false;
+        articleViewer.backend.close()
+      }
+      case "d" => {
+        print("Enter Article Number: ");
+        input = scala.io.StdIn.readInt();
+        displayArticleDetails(input)
+      }
+      case "s" => {
+        print("Enter Keyword To Query: ");
+        searchQuery = scala.io.StdIn.readLine();
+        displaySearchResults(searchQuery)
+      }
+      case "p" => {
+        print("Enter Page Number: ");
+        input = scala.io.StdIn.readInt();
+        selectPage(input)
+      }
 
     }
 
@@ -37,35 +71,65 @@ object ArticleViewerDriver extends App {
 
   def displaySearchResults(keyword: String): Unit = {
 
-      val searchResults = articleViewer.searchByKeyword(keyword)
+      val searchResultsF = articleViewer.searchByKeyword(keyword)
+    println("Fetching search Results")
 
-      println("--Search Results--")
-      for(result <- searchResults){
+    Await.result(searchResultsF, 60 seconds)
 
-        print("ID: ");println(result.id)
-        print("Title: "); println(result.title)
-      }
+
+    println("--Search Results--")
+    for (result <- searchResultsF.value.get.get) {
+
+      print("ID: "); println(result.id)
+      print("Title: "); println(result.title)
+    }
 
   }
 
   def displayArticleDetails(articleNumber: Int): Unit ={
     val articleIndex = articleNumber -1
-    val articleID = articles(articleIndex).id
-    val articleDetails = articleViewer.getArticleDetails(articleID)
-    println(writePretty(articleDetails))
+    if(articleIndex < articles.size) {
+      val articleID = articles(articleIndex).id
+      val articleDetailsFuture = articleViewer.getArticleDetails(articleID)
+
+      println("Fetching Article Details...")
+//      articleDetailsFuture onComplete {
+//
+//        case Success(article) => {println(writePretty(article));}
+//
+//        }
+
+      Await.result(articleDetailsFuture, 60 seconds)
+      println(writePretty(articleDetailsFuture.value.get.get))
+
+    }
+    else{
+      println("Invalid Article Selection.")
+
+    }
 
   }
 
   def selectPage(page: Int) = {
 
-    if( page > articleViewer.numPages || page < 0) {
+    if( page > this.numPages || page < 0) {
 
         println("Invalid page selection")
 
     }else{
 
       pageState = PageState(page)
-      articles =  articleViewer.getArticlesForPage(pageState)
+      val articlesF =  articleViewer.getArticlesForPage(pageState)
+
+      articlesF onComplete {
+
+        case Success(articles) => this.articles = articles
+        case Failure(e) => e.getMessage()
+
+      }
+      if(loading){println("Loading..."); loading=false}
+      else{ println("Switching Page...")}
+      Await.result(articlesF, 60 seconds)
 
     }
 
@@ -74,13 +138,21 @@ object ArticleViewerDriver extends App {
 
   def printAriclesOnPage(pageState: PageState): Unit = {
 
-    articles.zipWithIndex.foreach{
+    if(articles != null) {
+      articles.zipWithIndex.foreach {
 
-      case(article, articleNumber) => println(articleNumber +1 + ".) " + article.title)
+        case (article, articleNumber) => println(articleNumber + 1 + ".) " + article.title)
+
+      }
+
+
+      println()
 
     }
+    else{
+      println("NO ARTICLES TO DISPLAY")
 
-    println()
+    }
 
   }
 
@@ -89,7 +161,7 @@ object ArticleViewerDriver extends App {
 
     println("-----------------------")
     print("PAGES: ")
-    for(pageNumber <- 1 until articleViewer.numPages + 1){
+    for(pageNumber <- 1 until this.numPages + 1){
       print("[" + (pageNumber ).toString() + "]")
       if (pageNumber == pageState.pageNumber){
         print("* ")
@@ -135,8 +207,6 @@ object ArticleViewerDriver extends App {
 
 
       }
-
-
     }
 
 
