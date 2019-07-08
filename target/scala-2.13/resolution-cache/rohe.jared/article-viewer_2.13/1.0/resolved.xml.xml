@@ -4,7 +4,7 @@
 		module="article-viewer_2.13"
 		revision="1.0"
 		status="integration"
-		publication="20190707084559"
+		publication="20190708123239"
 	>
 		<description>
 		article-viewer
@@ -37,5 +37,6 @@
 		<dependency org="org.json4s" name="json4s-native_2.13" rev="3.6.7" conf="compile->default(compile)"/>
 		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.5" conf="compile->default(compile)"/>
 		<dependency org="org.slf4j" name="slf4j-simple" rev="1.7.5" conf="compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.13" rev="3.0.8" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>

@@ -3,7 +3,9 @@ package articleviewer
 import java.util.Date
 
 case class PageState(
-                      pageNumber: Int
+                      pageNumber: Int,
+                      articles: List[Article],
+                      loading: Boolean
                     )
 
 case class ArticleDetailResponse(

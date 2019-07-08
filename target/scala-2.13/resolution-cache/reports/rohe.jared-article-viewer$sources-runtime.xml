@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190707084603"/>
+		date="20190708123252"/>
 	<dependencies>
 		<module organisation="org.json4s" name="json4s-native_2.13">
 			<revision name="3.6.7" status="release" pubdate="20190626161427" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="29">
@@ -75,7 +75,7 @@
 				<metadata-artifact status="no" details="" size="4427" time="0" location="/Users/jared/.ivy2/cache/org.slf4j/slf4j-simple/ivy-1.7.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5.pom"/>
 				<caller organisation="rohe.jared" name="article-viewer$sources" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="slf4j-simple" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="11527" time="221" location="/Users/jared/.ivy2/cache/org.slf4j/slf4j-simple/srcs/slf4j-simple-1.7.5-sources.jar">
+					<artifact name="slf4j-simple" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11527" time="0" location="/Users/jared/.ivy2/cache/org.slf4j/slf4j-simple/srcs/slf4j-simple-1.7.5-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5-sources.jar"/>
 					</artifact>
 				</artifacts>

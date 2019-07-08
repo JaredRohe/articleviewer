@@ -7,15 +7,15 @@
 		revision="1.0"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190707084559"/>
+		date="20190708123239"/>
 	<dependencies>
 		<module organisation="org.slf4j" name="slf4j-simple">
-			<revision name="1.7.5" status="release" pubdate="20130325135226" resolver="public" artresolver="public" homepage="http://www.slf4j.org" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="30">
+			<revision name="1.7.5" status="release" pubdate="20130325135226" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="30">
 				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
-				<metadata-artifact status="successful" details="" size="1472" time="215" location="/Users/jared/.ivy2/cache/org.slf4j/slf4j-simple/ivy-1.7.5.xml" searched="true" original-local-location="/Users/jared/.ivy2/cache/org.slf4j/slf4j-simple/ivy-1.7.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5.pom"/>
+				<metadata-artifact status="no" details="" size="4427" time="0" location="/Users/jared/.ivy2/cache/org.slf4j/slf4j-simple/ivy-1.7.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5.pom"/>
 				<caller organisation="rohe.jared" name="article-viewer_2.13" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="slf4j-simple" type="jar" ext="jar" status="successful" details="" size="10680" time="169" location="/Users/jared/.ivy2/cache/org.slf4j/slf4j-simple/jars/slf4j-simple-1.7.5.jar">
+					<artifact name="slf4j-simple" type="jar" ext="jar" status="no" details="" size="10680" time="0" location="/Users/jared/.ivy2/cache/org.slf4j/slf4j-simple/jars/slf4j-simple-1.7.5.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.5/slf4j-simple-1.7.5.jar"/>
 					</artifact>
 				</artifacts>
