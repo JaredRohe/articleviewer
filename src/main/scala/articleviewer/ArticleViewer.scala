@@ -15,13 +15,10 @@ class ArticleViewer {
     "1IiwKICAidXNlck5hbWUiIDogImphcmVkcm9oZUBnbWFpbC5jb20iLAogICJ1c2VySWQiIDogMTMwNDEsCiAgInNjb3BlIiA6IFsgInJlYWQ6YXJ" +
     "0aWNsZSIgXQp9.4RyWgzLylgVO4e-SIOevoo6AdKnwn3XASEmrqh9yVvw"
 
-
   val PAGE_SIZE = 3
-
 
   implicit val backend = AsyncHttpClientFutureBackend()
   implicit val serialization: Serialization.type = org.json4s.native.Serialization
-
 
   def makeReqeust[T](uri: Uri)(implicit m: Manifest[T]): Future[Response[T]] = {
 
@@ -32,9 +29,7 @@ class ArticleViewer {
       .response(asJson[T])
 
     val response = request.send()
-
     response
-
   }
 
 
@@ -46,13 +41,11 @@ class ArticleViewer {
 
     val promise = Promise[Int]()
 
-    response.onComplete({
-
-      case Success(resp) => promise.success(resp.body.getOrElse(ArticlesResponse).asInstanceOf[ArticlesResponse].total_pages)
+    response onComplete {
+      case Success(resp) => promise.success(resp.body.getOrElse(ArticlesResponse)
+        .asInstanceOf[ArticlesResponse].total_pages)
       case Failure(e) => promise.failure(e)
-
     }
-    )
 
     promise.future
 
@@ -66,11 +59,9 @@ class ArticleViewer {
     val promise = Promise[List[Article]]()
 
     response onComplete {
-
       case Success(resp) => promise.success(resp.body.getOrElse(ArticlesResponse)
-                            .asInstanceOf[ArticlesResponse].articles)
+        .asInstanceOf[ArticlesResponse].articles)
       case Failure(e) => promise.failure(e)
-
     }
 
     promise.future
@@ -85,11 +76,9 @@ class ArticleViewer {
     val promise = Promise[ArticleDetail]()
 
     response onComplete {
-
       case Success(resp) => promise.success(resp.body.getOrElse(ArticleDetailResponse)
-                            .asInstanceOf[ArticleDetailResponse].article)
+        .asInstanceOf[ArticleDetailResponse].article)
       case Failure(e) => promise.failure(e)
-
     }
 
     promise.future
@@ -102,10 +91,8 @@ class ArticleViewer {
     val promise = Promise[List[QueryResult]]()
 
     response onComplete {
-
       case Success(resp) => promise.success(resp.body.getOrElse(QueryResponse).asInstanceOf[QueryResponse].results)
       case Failure(e) => promise.failure(e)
-
     }
 
     promise.future

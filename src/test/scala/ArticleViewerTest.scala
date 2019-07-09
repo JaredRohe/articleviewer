@@ -21,6 +21,17 @@ class ArticleViewerTest extends FunSuite {
 
   }
 
+  test("ArticleViewer.makeBadResponse") {
+
+    val response = av.makeReqeust[ArticlesResponse](
+      uri"https://api.elevio-staging.com/v1/fakeEndpoint")
+
+    Await.result(response, MaxDuration)
+
+    assertResult(404)(response.value.get.get.code)
+
+  }
+
   test("ArticleViewer.getNumPages") {
 
     val NUMPAGES = 5
@@ -43,10 +54,8 @@ class ArticleViewerTest extends FunSuite {
     Await.result(articlesFuture, MaxDuration)
 
     var articlesSet = Set[String]()
-
     for (article <- articlesFuture.value.get.get) {
       articlesSet += article.title
-
     }
 
     assert(EXPECTED_PAGES.diff(articlesSet).isEmpty)
@@ -73,9 +82,7 @@ class ArticleViewerTest extends FunSuite {
 
     var resultIds = Set[String]()
     for (queryResult <- searchFuture.value.get.get) {
-
       resultIds += queryResult.id
-
     }
 
     assert(EXPECTED_IDS.diff(resultIds).isEmpty)

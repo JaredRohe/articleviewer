@@ -11,9 +11,6 @@ import scala.language.postfixOps
 
 object ArticleViewerDriver extends App {
 
-  //testsdfd
-  //cmon
-
   val articleViewer = new ArticleViewer()
   val MaxDuration = 60 seconds
   var numPages = {
@@ -64,15 +61,27 @@ object ArticleViewerDriver extends App {
   }
 
   def displaySearchResults(keyword: String): Unit = {
+    if (!keyword.isEmpty) {
+      val searchResultsF = articleViewer.searchByKeyword(keyword)
+      println("Fetching Search Results...")
+      Await.result(searchResultsF, MaxDuration)
 
-    val searchResultsF = articleViewer.searchByKeyword(keyword)
-    println("Fetching Search Results...")
-    Await.result(searchResultsF, MaxDuration)
+      println("--Search Results--")
+      if (searchResultsF.value.get.isSuccess) {
+        val searchResults = searchResultsF.value.get.get
+        if (searchResults.isEmpty) println("No Results Found")
 
-    println("--Search Results--")
-    for (result <- searchResultsF.value.get.get) {
-      print("ID: "); println(result.id)
-      print("Title: "); println(result.title)
+        for (result <- searchResults) {
+          print("ID: "); println(result.id)
+          print("Title: "); println(result.title)
+        }
+      } else {
+        println("Something went wrong when searching for results...")
+        println(searchResultsF.value.get.failed.get.getMessage)
+
+      }
+    } else {
+      println("Must Enter a Keyword")
     }
 
   }
@@ -88,7 +97,13 @@ object ArticleViewerDriver extends App {
 
       println("Fetching Article Details...")
       Await.result(articleDetailsFuture, MaxDuration)
-      println(writePretty(articleDetailsFuture.value.get.get))
+
+      if (articleDetailsFuture.value.get.isSuccess)
+        println(writePretty(articleDetailsFuture.value.get.get))
+      else {
+        println("Something went wrong when attempting to get article details...")
+        println(articleDetailsFuture.value.get.failed.get.getMessage)
+      }
 
     }
     else {
@@ -96,7 +111,7 @@ object ArticleViewerDriver extends App {
     }
   }
 
-  def selectPage(page: Int) = {
+  def selectPage(page: Int): Unit = {
 
     if (page > numPages || page < 0) {
       println("Invalid Page Selection")
@@ -108,7 +123,7 @@ object ArticleViewerDriver extends App {
 
       articlesF onComplete {
         case Success(articles) => pageState = PageState(page, articles, loading = false)
-        case Failure(e) => e.getMessage
+        case Failure(e) => println("Something Went wrong when switching pages..."); println(e.getMessage)
       }
 
       if (loadingPogram) {
@@ -124,7 +139,7 @@ object ArticleViewerDriver extends App {
 
   def printAriclesOnPage(pageState: PageState): Unit = {
 
-    if (pageState.articles != null) {
+    if (!pageState.articles.isEmpty) {
       pageState.articles.zipWithIndex.foreach {
         case (article, articleNumber) => println(articleNumber + 1 + ".) " + article.title)
       }
@@ -140,7 +155,7 @@ object ArticleViewerDriver extends App {
 
     println("-----------------------")
     print("PAGES: ")
-    for (pageNumber <- 1 until this.numPages + 1) {
+    for (pageNumber <- 1 until numPages + 1) {
       print("[" + pageNumber.toString + "]")
       if (pageNumber == pageState.pageNumber) {
         print("* ")
@@ -167,7 +182,6 @@ object ArticleViewerDriver extends App {
     var input = scala.io.StdIn.readLine("command>> ").strip()
 
     val options = List("d", "p", "s", "q")
-
     var validCommand = false
     while (!validCommand) {
 
@@ -176,9 +190,10 @@ object ArticleViewerDriver extends App {
         validCommand = true
 
       } else {
-        println(input + " is not one of [d,p,s,q]")
-        println("Please Enter a Valid Command.")
-
+        if (!input.isEmpty) {
+          println(input + " is not one of [d,p,s,q]")
+          println("Please Enter a Valid Command.")
+        }
         input = scala.io.StdIn.readLine("command>> ").strip()
 
       }

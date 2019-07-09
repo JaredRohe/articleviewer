@@ -1,7 +1,7 @@
 # Article Viewer
 
 ## Building and Running the Program
-Make sure you are in the top level directory before running the below commands.
+Make sure you are in the top level directory of the project before running the below commands.
 ```
 sbt run
 ```
