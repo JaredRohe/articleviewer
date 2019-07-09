@@ -68,7 +68,6 @@ case class ArticlesResponse(
                            )
 
 case class QueryResponse(
-
                           queryTerm: String,
                           totalResults: Int,
                           totalPages: Int,

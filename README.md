@@ -1,6 +1,11 @@
 # Article Viewer
 
-## Running the program
+## Building and Running the Program
+```
+sbt run
+
+```
+The above command 
 
 ```bash
 scala article-viewer_2.13-1.0.jar
@@ -11,4 +16,3 @@ scala article-viewer_2.13-1.0.jar
 ```bash
 sbt test
 ```
-
