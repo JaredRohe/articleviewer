@@ -31,10 +31,15 @@ libraryDependencies ++= Seq("org.slf4j" % "slf4j-api" % "1.7.5",
 
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.8" % "test"
 
+
+
 assemblyMergeStrategy in assembly := {
   case PathList("META-INF", xs @ _*) => MergeStrategy.discard
   case x => MergeStrategy.first
 }
+
+Project.inConfig(Test)(baseAssemblySettings)
+jarName in (Test, assembly) := s"${name.value}-test-${version.value}.jar"
 
 
 // Here, `libraryDependencies` is a set of dependencies, and by using `+=`,

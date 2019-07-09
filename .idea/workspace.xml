@@ -2,7 +2,93 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6400b018-2451-45dc-9f38-640c94f69e40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/articleviewer/Comments.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/articleviewer/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/article-viewer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/article-viewer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/articleviewer/ArticleViewerDriver.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/articleviewer/ArticleViewerDriver.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/Article$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/Article$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/Article.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/ArticleDetail$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/ArticleDetail$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/ArticleDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/ArticleDetail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/ArticleDetailResponse$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/ArticleDetailResponse$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/ArticleDetailResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/ArticleDetailResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/ArticleViewerDriver$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/ArticleViewerDriver$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/ArticleViewerDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/ArticleViewerDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/ArticlesResponse$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/ArticlesResponse$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/ArticlesResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/ArticlesResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/PageState$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/PageState$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/PageState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/PageState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/QueryResponse$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/QueryResponse$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/QueryResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/QueryResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/QueryResult$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/QueryResult$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/QueryResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/QueryResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/Translation$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/Translation$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/Translation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/Translation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/User$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/User$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/articleviewer/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/rohe.jared-article-viewer$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/rohe.jared-article-viewer$sources-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/rohe.jared-article-viewer$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/rohe.jared-article-viewer$sources-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/rohe.jared-article-viewer$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/rohe.jared-article-viewer$sources-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/rohe.jared-article-viewer$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/rohe.jared-article-viewer$sources-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/rohe.jared-article-viewer$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/rohe.jared-article-viewer$sources-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/rohe.jared-article-viewer$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/rohe.jared-article-viewer$sources-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/rohe.jared-article-viewer$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/rohe.jared-article-viewer$sources-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/rohe.jared-article-viewer$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/rohe.jared-article-viewer$sources-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/rohe.jared-article-viewer$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/rohe.jared-article-viewer$sources-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/rohe.jared-article-viewer$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/rohe.jared-article-viewer$sources-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/rohe.jared-article-viewer$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/rohe.jared-article-viewer$sources-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/rohe.jared/article-viewer$sources/1.0/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/rohe.jared/article-viewer$sources/1.0/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/rohe.jared/article-viewer$sources/1.0/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/rohe.jared/article-viewer$sources/1.0/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/assembly/$global/streams/assembly-inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/assembly/$global/streams/assembly-inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/assembly/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/assembly/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/Article$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/Article$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/Article.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/ArticleDetail$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/ArticleDetail$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/ArticleDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/ArticleDetail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/ArticleDetailResponse$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/ArticleDetailResponse$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/ArticleDetailResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/ArticleDetailResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/ArticleViewer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/ArticleViewer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/ArticleViewerDriver$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/ArticleViewerDriver$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/ArticleViewerDriver$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/ArticleViewerDriver$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/ArticleViewerDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/ArticleViewerDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/ArticlesResponse$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/ArticlesResponse$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/ArticlesResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/ArticlesResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/PageState$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/PageState$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/PageState.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/PageState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/QueryResponse$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/QueryResponse$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/QueryResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/QueryResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/QueryResult$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/QueryResult$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/QueryResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/QueryResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/Translation$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/Translation$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/Translation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/Translation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/User$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/User$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/assemblyOption/$global/streams/assembly/8eba26de87f6b726695bd3e8440f1719aecc93c7_dir/articleviewer/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.13.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/$global/$global/definedTestNames/data" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/$global/$global/definedTestNames/data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/fullClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/loadedTestFrameworks/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/loadedTestFrameworks/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/test/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/test/$global/streams/out" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/articleviewer/ArticleViewerDriver.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="119" column="41" selection-start-line="119" selection-start-column="41" selection-end-line="119" selection-end-column="41" />
+            <state relative-caret-position="15">
+              <caret line="120" column="42" selection-start-line="120" selection-start-column="42" selection-end-line="120" selection-end-column="42" />
               <folding>
                 <element signature="e#23#55#0" expanded="true" />
               </folding>
@@ -36,13 +122,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/articleviewer/ArticleViewerTest.scala">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/articleviewer/model.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1305">
-              <caret line="87" column="52" lean-forward="true" selection-start-line="87" selection-start-column="52" selection-end-line="87" selection-end-column="52" />
+            <state relative-caret-position="82">
+              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/ArticleViewerTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-116">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
               <folding>
-                <element signature="e#23#52#0" expanded="true" />
+                <element signature="e#0#74#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,7 +146,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/articleviewer/ArticleViewer.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1635">
+            <state relative-caret-position="1545">
               <caret line="109" selection-start-line="109" selection-end-line="109" />
               <folding>
                 <element signature="e#23#53#0" expanded="true" />
@@ -72,8 +167,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="31" column="72" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="72" />
+            <state relative-caret-position="240">
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/articleviewer/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="210">
+                <caret line="14" selection-start-line="14" selection-end-line="14" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/articleviewer/Comments.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -105,14 +222,20 @@
       <find>oncompl</find>
       <find>p.success</find>
       <find>Succe</find>
+      <find>ArticleViewerDriver.MaxDuration</find>
       <find>second</find>
+      <find>page</find>
     </findStrings>
     <replaceStrings>
       <replace>val promise</replace>
       <replace>promise.future</replace>
       <replace>promise.failure</replace>
+      <replace>MaxDuration</replace>
       <replace>promise.success</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -121,16 +244,17 @@
         <option value="$PROJECT_DIR$/src/main/scala/ArticleViewer.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ArticleViewerDriver.scala" />
         <option value="$PROJECT_DIR$/project/assembly.sbt" />
-        <option value="$PROJECT_DIR$/src/main/scala/articleviewer/model.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/ArticleViewerTest.scala" />
-        <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/articleviewer/ArticleViewer.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/articleviewer/model.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/articleviewer/ArticleViewerDriver.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/articleviewer/ArticleViewerTest.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/main/scala/articleviewer/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -140,7 +264,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,71 +271,16 @@
               <item name="article-viewer" type="b2602c69:ProjectViewProjectNode" />
               <item name="articleviewer" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="article-viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="articleviewer" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="article-viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="articleviewer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="article-viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="articleviewer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="article-viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="articleviewer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="article-viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="articleviewer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="articleviewer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="article-viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="articleviewer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="article-viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="articleviewer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="article-viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="articleviewer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="articleviewer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="article-viewer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="articleviewer" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -220,6 +288,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="articleviewer" />
     </key>
   </component>
@@ -311,7 +380,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/build.sbt" value="1275266984" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="3203869475" />
         <entry key="$PROJECT_DIR$/project/assembly.sbt" value="3661142816" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="1396028727" />
       </map>
@@ -336,18 +405,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArticleViewerTest - 2019.07.08 at 13h 26m 23s.xml">
-      <configuration name="ArticleViewerTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArticleViewerTest - 2019.07.08 at 13h 40m 21s.xml">
-      <configuration name="ArticleViewerTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArticleViewerTest - 2019.07.08 at 13h 40m 40s.xml">
-      <configuration name="ArticleViewerTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ArticleViewerTest - 2019.07.08 at 13h 41m 01s.xml">
-      <configuration name="ArticleViewerTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="ArticleViewerTest - 2019.07.08 at 13h 52m 02s.xml">
       <configuration name="ArticleViewerTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -366,6 +423,18 @@
     <history-entry file="ArticleViewerTest - 2019.07.08 at 14h 11m 37s.xml">
       <configuration name="ArticleViewerTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="ArticleViewerTest - 2019.07.08 at 14h 15m 08s.xml">
+      <configuration name="ArticleViewerTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArticleViewerTest - 2019.07.08 at 14h 16m 37s.xml">
+      <configuration name="ArticleViewerTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArticleViewerTest - 2019.07.08 at 14h 24m 27s.xml">
+      <configuration name="ArticleViewerTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ArticleViewerTest - 2019.07.08 at 14h 42m 22s.xml">
+      <configuration name="ArticleViewerTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -377,10 +446,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30543634" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30972818" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -390,7 +458,7 @@
       <window_info id="Learn" order="7" weight="0.3298969" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3325301" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3686747" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -400,7 +468,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.30843374" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.5337349" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -437,10 +505,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/articleviewer/model/scala.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/articleviewer/model.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/articleviewer/ArticleViewer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="1545">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+          <folding>
+            <element signature="e#23#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -451,40 +522,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/ArticleViewerTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="31" column="72" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="72" />
+        <state relative-caret-position="-116">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#74#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/articleviewer/ArticleViewer.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/articleviewer/model.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1635">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
-          <folding>
-            <element signature="e#23#53#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="82">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/articleviewer/ArticleViewerDriver.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="119" column="41" selection-start-line="119" selection-start-column="41" selection-end-line="119" selection-end-column="41" />
+        <state relative-caret-position="15">
+          <caret line="120" column="42" selection-start-line="120" selection-start-column="42" selection-end-line="120" selection-end-column="42" />
           <folding>
             <element signature="e#23#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/articleviewer/ArticleViewerTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/articleviewer/Comments.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="87" column="52" lean-forward="true" selection-start-line="87" selection-start-column="52" selection-end-line="87" selection-end-column="52" />
-          <folding>
-            <element signature="e#23#52#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/articleviewer/README.md">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="210">
+            <caret line="14" selection-start-line="14" selection-end-line="14" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

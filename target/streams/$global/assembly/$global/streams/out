@@ -1,32 +1,33 @@
-[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: netty-reactive-streams-2.0.3.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: netty-codec-socks-4.1.36.Final.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: netty-transport-native-unix-common-4.1.36.Final.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: core_2.13-1.6.0.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: netty-transport-4.1.36.Final.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: async-http-client-backend-future_2.13-1.6.0.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: json4s_2.13-1.6.0.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: netty-resolver-dns-4.1.36.Final.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: json-common_2.13-1.6.0.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: netty-handler-proxy-4.1.36.Final.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: netty-resolver-4.1.36.Final.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: netty-common-4.1.36.Final.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: async-http-client-2.10.0.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: netty-codec-dns-4.1.36.Final.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: async-http-client-backend_2.13-1.6.0.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: slf4j-api-1.7.26.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: async-http-client-netty-utils-2.10.0.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: reactive-streams-1.0.2.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: javax.activation-1.2.0.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: netty-codec-4.1.36.Final.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: paranamer-2.8.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: json4s-native_2.13-3.6.7.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: netty-buffer-4.1.36.Final.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: netty-transport-native-epoll-4.1.36.Final-linux-x86_64.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: json4s-ast_2.13-3.6.7.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: netty-codec-http-4.1.36.Final.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: netty-handler-4.1.36.Final.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: netty-codec-socks-4.1.36.Final.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: json-common_2.13-1.6.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: netty-transport-4.1.36.Final.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: netty-common-4.1.36.Final.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: json4s-core_2.13-3.6.7.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: netty-handler-proxy-4.1.36.Final.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: paranamer-2.8.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: netty-resolver-4.1.36.Final.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: netty-codec-http-4.1.36.Final.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: json4s-ast_2.13-3.6.7.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: netty-transport-native-epoll-4.1.36.Final-linux-x86_64.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: netty-codec-4.1.36.Final.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: json4s-native_2.13-3.6.7.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: netty-transport-native-unix-common-4.1.36.Final.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: slf4j-simple-1.7.5.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: netty-handler-4.1.36.Final.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: json4s-scalap_2.13-3.6.7.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: slf4j-api-1.7.26.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: netty-resolver-dns-4.1.36.Final.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: async-http-client-backend-future_2.13-1.6.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: async-http-client-backend_2.13-1.6.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: async-http-client-netty-utils-2.10.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: netty-codec-dns-4.1.36.Final.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: core_2.13-1.6.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: async-http-client-2.10.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: netty-buffer-4.1.36.Final.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: reactive-streams-1.0.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: netty-reactive-streams-2.0.3.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncluding from cache: scala-library-2.13.0.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mCalculate mappings...[0m
 [0m[[0m[0mdebug[0m] [0m[0mChecking every *.class/*.jar file's SHA-1.[0m
@@ -34,6 +35,7 @@
 [0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/INDEX.LIST' with strategy 'discard'[0m
 [0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/LICENSE_javax.activation-1.2.0.txt' with strategy 'discard'[0m
 [0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/MANIFEST.MF' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/article-viewer.kotlin_module' with strategy 'discard'[0m
 [0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/io.netty.versions.properties' with strategy 'discard'[0m
 [0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/mailcap.default' with strategy 'discard'[0m
 [0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/com.sun.activation/javax.activation/pom.properties' with strategy 'discard'[0m
@@ -76,13 +78,14 @@
 [0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.jctools/jctools-core/pom.xml' with strategy 'discard'[0m
 [0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.slf4j/slf4j-api/pom.properties' with strategy 'discard'[0m
 [0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.slf4j/slf4j-api/pom.xml' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.slf4j/slf4j-simple/pom.properties' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/maven/org.slf4j/slf4j-simple/pom.xml' with strategy 'discard'[0m
 [0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/mimetypes.default' with strategy 'discard'[0m
 [0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/native-image/io.netty/codec-http/native-image.properties' with strategy 'discard'[0m
 [0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/native-image/io.netty/transport/native-image.properties' with strategy 'discard'[0m
 [0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/native-image/io.netty/transport/reflection-config.json' with strategy 'discard'[0m
 [0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/native/libnetty_transport_native_epoll_x86_64.so' with strategy 'discard'[0m
-[0m[[0m[0minfo[0m] [0m[0mStrategy 'discard' was applied to 50 files (Run the task at debug level to see details)[0m
-[0m[[0m[0mdebug[0m] [0m[0mSHA-1: 0b50a9bc0e23915c8e5fcb0408c96b2f4c80b4e7[0m
+[0m[[0m[0minfo[0m] [0m[0mStrategy 'discard' was applied to 53 files (Run the task at debug level to see details)[0m
 [0m[[0m[0minfo[0m] [0m[0mPackaging /Users/jared/elevio/articleviewer/target/scala-2.13/article-viewer-assembly-1.0.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	LICENSE[0m
@@ -6451,6 +6454,18 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/jared/elevio/articleviewer/target/streams/$global/assemblyOption/$global/streams/assembly/ee87cdcb3bdb3013b960b0c4f8a935736bd70b28_77100a62c2e6f04b53977b9f541044d7d722693d_da39a3ee5e6b4b0d3255bfef95601890afd80709/org/slf4j/helpers/Util$ClassContextSecurityManager.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	org/slf4j/helpers/Util.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/jared/elevio/articleviewer/target/streams/$global/assemblyOption/$global/streams/assembly/ee87cdcb3bdb3013b960b0c4f8a935736bd70b28_77100a62c2e6f04b53977b9f541044d7d722693d_da39a3ee5e6b4b0d3255bfef95601890afd80709/org/slf4j/helpers/Util.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/slf4j/impl/SimpleLogger$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jared/elevio/articleviewer/target/streams/$global/assemblyOption/$global/streams/assembly/43b864511bda591e6d2c62ca36c28eb3ec12ca62_4a950c50bbc67fdbc908190dc8e25d7a0251f74a_da39a3ee5e6b4b0d3255bfef95601890afd80709/org/slf4j/impl/SimpleLogger$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/slf4j/impl/SimpleLogger.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jared/elevio/articleviewer/target/streams/$global/assemblyOption/$global/streams/assembly/43b864511bda591e6d2c62ca36c28eb3ec12ca62_4a950c50bbc67fdbc908190dc8e25d7a0251f74a_da39a3ee5e6b4b0d3255bfef95601890afd80709/org/slf4j/impl/SimpleLogger.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/slf4j/impl/SimpleLoggerFactory.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jared/elevio/articleviewer/target/streams/$global/assemblyOption/$global/streams/assembly/43b864511bda591e6d2c62ca36c28eb3ec12ca62_4a950c50bbc67fdbc908190dc8e25d7a0251f74a_da39a3ee5e6b4b0d3255bfef95601890afd80709/org/slf4j/impl/SimpleLoggerFactory.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/slf4j/impl/StaticLoggerBinder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jared/elevio/articleviewer/target/streams/$global/assemblyOption/$global/streams/assembly/43b864511bda591e6d2c62ca36c28eb3ec12ca62_4a950c50bbc67fdbc908190dc8e25d7a0251f74a_da39a3ee5e6b4b0d3255bfef95601890afd80709/org/slf4j/impl/StaticLoggerBinder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/slf4j/impl/StaticMDCBinder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jared/elevio/articleviewer/target/streams/$global/assemblyOption/$global/streams/assembly/43b864511bda591e6d2c62ca36c28eb3ec12ca62_4a950c50bbc67fdbc908190dc8e25d7a0251f74a_da39a3ee5e6b4b0d3255bfef95601890afd80709/org/slf4j/impl/StaticMDCBinder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/slf4j/impl/StaticMarkerBinder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/jared/elevio/articleviewer/target/streams/$global/assemblyOption/$global/streams/assembly/43b864511bda591e6d2c62ca36c28eb3ec12ca62_4a950c50bbc67fdbc908190dc8e25d7a0251f74a_da39a3ee5e6b4b0d3255bfef95601890afd80709/org/slf4j/impl/StaticMarkerBinder.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	org/slf4j/spi/LocationAwareLogger.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/jared/elevio/articleviewer/target/streams/$global/assemblyOption/$global/streams/assembly/ee87cdcb3bdb3013b960b0c4f8a935736bd70b28_77100a62c2e6f04b53977b9f541044d7d722693d_da39a3ee5e6b4b0d3255bfef95601890afd80709/org/slf4j/spi/LocationAwareLogger.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	org/slf4j/spi/LoggerFactoryBinder.class[0m

@@ -4,7 +4,7 @@
 		module="article-viewer$sources"
 		revision="1.0"
 		status="integration"
-		publication="20190708123252"
+		publication="20190708164708"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

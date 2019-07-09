@@ -19,9 +19,9 @@ object ArticleViewerDriver extends App {
     numPagesF.value.get.get
   }
 
-  var articles: List[Article] = _
-  var pageState = PageState(1)
-  var loading = true
+  //var articles: List[Article] = _
+  var pageState = PageState(1, List[Article](), true)
+  //var loading = true
 
   driver()
 
@@ -87,8 +87,8 @@ object ArticleViewerDriver extends App {
     implicit val jsonFormats = DefaultFormats
     val articleIndex = articleNumber -1
 
-    if(articleIndex >=0 && articleIndex < articles.size ) {
-      val articleID = articles(articleIndex).id
+    if(articleIndex >=0 && articleIndex < pageState.articles.size ) {
+      val articleID = pageState.articles(articleIndex).id
       val articleDetailsFuture = articleViewer.getArticleDetails(articleID)
 
       println("Fetching Article Details...")
@@ -107,15 +107,16 @@ object ArticleViewerDriver extends App {
         println("Invalid page selection")
 
     }else{
-      pageState = PageState(page)
+      val loadingPogram= pageState.loading
+      pageState = PageState(page, List[Article](), false)
       val articlesF =  articleViewer.getArticlesForPage(pageState)
 
       articlesF onComplete {
-        case Success(articles) => this.articles = articles
+        case Success(articles) => pageState = PageState(page, articles, false)
         case Failure(e) => e.getMessage()
       }
 
-      if(loading){println("Loading..."); loading=false}
+      if(loadingPogram){println("Loading...")}
       else{ println("Switching Page...")}
       Await.result(articlesF, MaxDuration)
     }
@@ -124,8 +125,8 @@ object ArticleViewerDriver extends App {
 
   def printAriclesOnPage(pageState: PageState): Unit = {
 
-    if(articles != null) {
-      articles.zipWithIndex.foreach {
+    if(pageState.articles != null) {
+      pageState.articles.zipWithIndex.foreach {
         case (article, articleNumber) => println(articleNumber + 1 + ".) " + article.title)
       }
       println()
