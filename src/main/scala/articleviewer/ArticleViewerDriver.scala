@@ -61,7 +61,7 @@ object ArticleViewerDriver extends App {
   }
 
   def displaySearchResults(keyword: String): Unit = {
-    if (!keyword.isEmpty) {
+    if (keyword.nonEmpty) {
       val searchResultsF = articleViewer.searchByKeyword(keyword)
       println("Fetching Search Results...")
       Await.result(searchResultsF, MaxDuration)
@@ -139,9 +139,9 @@ object ArticleViewerDriver extends App {
 
   def printAriclesOnPage(pageState: PageState): Unit = {
 
-    if (!pageState.articles.isEmpty) {
+    if (pageState.articles.nonEmpty) {
       pageState.articles.zipWithIndex.foreach {
-        case (article, articleNumber) => println(articleNumber + 1 + ".) " + article.title)
+        case (article, articleNumber) => println((articleNumber + 1).toString + ".) " + article.title)
       }
       println()
     }
@@ -190,7 +190,7 @@ object ArticleViewerDriver extends App {
         validCommand = true
 
       } else {
-        if (!input.isEmpty) {
+        if (input.nonEmpty) {
           println(input + " is not one of [d,p,s,q]")
           println("Please Enter a Valid Command.")
         }
